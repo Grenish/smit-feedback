@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { useState } from "react";
+import MenuOpenIcon from '@mui/icons-material/MenuOpen';
+import CloseIcon from '@mui/icons-material/Close';
 
 const Sidebar = () => {
-  return (
-    <div>
-      SideBar
-    </div>
-  )
-}
+  const [isOpen, setisOpen] = useState(false);
 
-export default Sidebar
+  const toggleSidebar = () => {
+    setisOpen(!isOpen);
+  };
+  return (
+    <>
+    Hello, World!
+    </>
+  );
+};
+
+export default Sidebar;
