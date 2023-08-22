@@ -1,6 +1,6 @@
 import Profile from "./Profile";
 import Faculty from "./Faculty";
-import Sidebar from "./Sidebar";
 import Newsfeed from "./Newsfeed";
+import Tabs from "./Tabs";
 
-export { Profile, Faculty, Sidebar, Newsfeed };
+export { Profile, Faculty, Newsfeed, Tabs };
