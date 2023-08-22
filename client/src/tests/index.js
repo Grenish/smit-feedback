@@ -65,3 +65,37 @@ const Parimala = [
     ],
   },
 ];
+
+const facultyMember = [
+  {
+    id: 1,
+    profile: "GP"
+  },
+  {
+    id: 2,
+    profile: "PT"
+  },
+  {
+    id: 3,
+    profile: "BP"
+  },
+  {
+    id: 4,
+    profile: "SKM"
+  },
+  {
+    id: 5,
+    profile: "DG"
+  },
+  {
+    id: 6,
+    profile: "MP"
+  }
+]
+
+export {
+  Gaurav,
+  Parimala,
+  Dipendra,
+  facultyMember,
+}
